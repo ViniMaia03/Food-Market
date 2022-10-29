@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+/* VARIÁVEIS --------------------*/
+
+:root{
+  --vermelho:#ff3838;
+  --branco: #fff;
+  --preto: #000;
+  --bkgCinza: #f7f7f7; 
+  --cinzaClaro: #666; 
+  --cinzaEscuro: #333;
+}
+
+/* GERAL -----------------------*/
+
+*{
+  font-family: 'Nunito', sans-serif;
+  margin:0; 
+  padding:0;
+  box-sizing: border-box;
+  outline: none; 
+  border:none;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+*::selection{
+  background:var(--vermelho);
+  color:var(--branco);
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  background:var(--bkgCinza);
+}
+  
+/* CABEÇALHO --------------------------*/
+
+header{
+    position: fixed;
+    top:0; left: 0; right:0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:var(--branco);
+    padding:2rem 9%;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+header .logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color:var(--cinzaClaro);
+}
+
+header .logo span{
+    color:var(--vermelho);
+}
+
+header .navegacao a{
+    font-size: 2rem;
+    margin-left: 2rem;
+    color: var(--cinzaClaro);
+}
+
+header .navegacao a:hover{
+    color:var(--vermelho);
+}
+
+.fa-solid  {
+  color: var(--vermelho);
+}
+
+#menu-bars{
+    font-size: 3rem;
+    cursor: pointer;
+    color: var(--cinzaClaro);
+    border:.1rem solid var(--cinzaClaro);
+    border-radius: .3rem;
+    padding:.5rem 1.5rem;
+    display: none;
+}
+
+/*LISTA DE PEDIDOS --------------------------*/
+
+section {
+    padding:10rem 9%;
+  }
+
+.titulo {
+    text-align: center;
+    font-size: 3.5rem;
+    padding:1rem;
+    color: var(--cinzaClaro);
+}
+
+.titulo span {
+    color:var(--vermelho);
+}
+
+.subtitulo {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: .6rem;
+    font-weight: bold;
+}
+
+.subtitulo span {
+    color: var(--cinzaClaro);
+    font-weight: lighter;
+    font-style: italic;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+ul li:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+ul li:hover {
+    background: #ddd;
+}
+
+ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+  }
+  
+  .close:hover {
+    background-color: #f44336;
+    color: white;
+  }
+
+  .addProduto {
+    background-color: var(--cinzaEscuro);
+    padding: 30px 40px;
+    color: var(--branco);
+    text-align: center;
+  }
+
+  .header:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  input {
+    margin: -1.9rem;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+  }
+
+  #btn {
+    padding: 10px;
+    margin: -1.9rem;
+    width: 25%;
+    background: var(--vermelho);
+    color: var(--branco);
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+  }
+  
+  #btn:hover {
+    background-color: var(--cinzaClaro);
+  }
+
+  #send {
+    padding: 10px;
+    margin: 5rem;
+    width: 25%;
+    background: var(--vermelho);
+    color: var(--branco);
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 2rem;
+    text-align: center;
+  }
+
+  #send:hover {
+    background-color: var(--cinzaClaro);
+  }
+
+/* RESPONSIVIDADE ------------------------- */
+
+@media(max-width:991px){
+
+    html{
+      font-size: 55%;
+    }
+  
+    header{
+      padding:2rem;
+    }
+  
+    section{
+      padding:8rem;
+    }
+  
+  }
+  
+  @media(max-width:768px){
+  
+    #menu-bars{
+      display: initial;
+    }
+  
+    header .navegacao{
+      position: absolute;
+      top:100%; left: 0; right:0;
+      background: var(--bkgCinza);
+      border-top: .1rem solid rgba(0,0,0,.1);
+      clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+  
+    header .navegacao.active{
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+  
+    header .navegacao a{
+      margin: 1.5rem;
+      padding:1.5rem;
+      display: block;
+      border:.2rem solid rgba(0,0,0,.1);
+      border-left:.5rem solid var(--vermelho);
+      background: var(--branco);
+    }
+  
+  }
+  
+  @media(max-width:450px){
+  
+    html{
+      font-size: 50%;
+    }
+  
+    .order .row form .inputBox input{
+      width:100%;
+    }
+  
+  }

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Food Market</title>
+
+    <link rel="stylesheet" href="registrar.css" />
+    <link rel="shortcut icon" href="images/2849824_store_shopping_market_buy_shop_icon.ico" type="image/x-icon">
+    <script
+      src="https://kit.fontawesome.com/9a6646f619.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2 class="titulo">Faça seu <span> cadastro </span></h2>
+      </div>
+
+      <form action="login.sql" method="POST" id="form" class="form">
+        <div class="form-control">
+          <label for="#inputNome"> Nome de usuário </label>
+          <input type="text" placeholder="Nome" id="inputNome" name="nome"/>
+
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+
+          <small> O nome está errado</small>
+        </div>
+
+        <div class="form-control">
+          <label for="#inputEmail"> Email </label>
+          <input type="email" placeholder="Email"  id="inputEmail" name="email"/>
+
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+
+          <small> O email está errado</small>
+        </div>
+
+        <div class="form-control">
+          <label for="#inputCnpj"> CNPJ </label>
+          <input type="number" placeholder="CNPJ"  id="inputCnpj" name="cnpj"/>
+
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+
+          <small> O CNPJ está errado</small>
+        </div>
+
+        <div class="form-control">
+          <label for="#inputSenha"> Senha </label>
+          <input type="password" placeholder="Senha"  id="inputSenha" name="senha"/>
+
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+
+          <small> A senha está errada </small>
+        </div>
+
+        <div class="form-control">
+          <label for="#inputSenhaConfirmada"> Confirme sua senha </label>
+          <input type="password" placeholder="Senha"  id="inputSenhaConfirmada" />
+
+          <small class="smallInvisivel"></small>
+
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+
+          <button type="submit" class="cadastrar" onclick="window.location.href = 'inicioLogado.html'">
+            Cadastrar
+          </button>
+          <button onclick="window.location.href = 'inicio.html'"> Voltar </button>
+        </div>
+
+      </form>
+    </div>
+
+    <script src="registrar.js"></script>
+  </body>
+</html>

@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
+
+/* VARIÁVEIS --------------------*/
+
+:root {
+  --vermelho: #ff3838;
+  --branco: #fff;
+  --preto: #000;
+  --bkgCinza: #f7f7f7;
+  --cinzaClaro: #666;
+  --cinzaEscuro: #333;
+  --verde: #2ecc61;
+}
+
+/* GERAL -----------------------*/
+
+* {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all 0.2s linear;
+}
+
+*::selection {
+  background: var(--vermelho);
+  color: var(--branco);
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+}
+
+body {
+  background: var(--bkgCinza);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* TÍTULO----------------------- */
+
+.titulo {
+  color: var(--cinzaEscuro);
+  font-size: 2.7rem;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.titulo span {
+  color: var(--vermelho);
+}
+/* CONTAINER / DIVS----------------------*/
+
+.container {
+  background-color: var(--branco);
+  border-radius: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  width: 400px;
+  max-width: 100%;
+}
+
+.header {
+  padding: 1rem;
+}
+
+/* FORMULÁRIO -------------------------*/
+
+.form {
+  padding: 1rem;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.form-control label {
+  margin-bottom: 5px;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.form-control input {
+  border: 2px solid var(--cinzaClaro);
+  border-radius: 1rem;
+  display: block;
+  font-size: 14px;
+  width: 100%;
+  padding: 10px;
+}
+
+.form-control i {
+  position: absolute;
+  top: 45px;
+  right: 10px;
+  visibility: hidden;
+}
+
+.form-control small {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 11px;
+  visibility: hidden;
+}
+
+.form-control .smallInvisivel {
+  visibility: hidden;
+}
+
+.form-control button {
+  background-color: var(--branco);
+  border: .1rem solid var(--vermelho);
+  border-radius: 1rem;
+  color: var(--vermelho);
+  font-size: 14px;
+  width: 45%;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+.form-control button:hover {
+  background-color: var(--vermelho);
+  color: var(--branco);
+}
+
+.form-control .cadastrar {
+  margin-left: 10px;
+  margin-right: 15px;
+}
+
+/* MENSAGEM DE ERRO E SUCESSO -----------*/
+
+.form-control.success input {
+  border-color: var(--verde);
+}
+
+.form-control.error input {
+  border-color: var(--vermelho);
+}
+
+.form-control.success i.fa-check-circle {
+  color: var(--verde);
+  visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle {
+  color: var(--vermelho);
+  visibility: visible;
+}
+
+.form-control.success small {
+  color: var(--verde);
+}
+
+.form-control.error small {
+  color: var(--vermelho);
+  visibility: visible;
+}
+
