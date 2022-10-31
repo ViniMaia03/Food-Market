@@ -89,7 +89,7 @@ header .navegacao a:hover{
     display: none;
 }
 
-/* CONTEÚDO 1 -------------------------*/
+/* INÍCIO -------------------------*/
 
 section {
     padding:2rem 9%;
@@ -128,6 +128,10 @@ section {
 .inicio .conteudo h3 {
     font-size: 5rem;
     color: var(--cinzaEscuro);
+}
+
+.inicio .conteudo h3 span {
+  color: var(--vermelho);
 }
   
 .inicio .conteudo p {
@@ -210,6 +214,10 @@ section {
   color: var(--cinzaEscuro);
 }
 
+.cards .containder-geral .containder .conteudo h3 span {
+  color: var(--vermelho);
+}
+
 .cards .containder-geral .containder .conteudo p {
   font-size: 1.5rem;
   color: var(--cinzaClaro);
@@ -241,6 +249,10 @@ section {
   font-size: 3rem;
   color: var(--cinzaEscuro);
   padding: 1rem;
+}
+
+.passos .box h3 span {
+  color: var(--vermelho);
 }
 
 /* PEDIDO FORMULÁRIO -----------------------*/
