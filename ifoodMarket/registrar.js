@@ -76,6 +76,19 @@ function setSuccsessFor(input, message) {
     formControl.className = "form-control success";
 }
 
+// Validação do Formulário
+
+function validar() {
+    const validacao = document.getElementById("#form");
+
+    if (validacao.valid) {
+        window.location.href = "inicioLogado.html";
+    } else {
+        alert("Revise suas informações.")
+    }
+}
+
+
 // Regex para o email e CNPJ
 
 function checkEmail(email) {
