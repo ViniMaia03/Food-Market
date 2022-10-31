@@ -41,16 +41,11 @@ body{
   background:var(--bkgCinza);
 }
 
-.titulo {
-    text-align: center;
-    align-items: center;
-    font-size: 3.5rem;
-    padding:1rem;
-    color: var(--cinzaClaro);
-    margin: 10rem;
-  }
+/* INGREDINTES----------*/
 
-  .titulo span {
-    color: var(--vermelho);
+.dishes .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax (20rem, 1fr));
+    gap: 1.5rem;   
   }
 
