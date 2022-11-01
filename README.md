@@ -1,4 +1,6 @@
-# Resumo
+# Food Market
+
+## Resumo
 
 Justifica-se que restaurantes e estabelecimentos sofrem quando há a necessidade de algum ingrediente. Esses problemas partem desde fecharem mais cedo, ou encerrarem seus negócios. Com isso, o objetivo deste trabalho é produzir um site e aplicativo, onde restaurantes/estabelecimentos possam comprar ingredientes que necessitam. Nosso mercado virtual funcionaria como um site e aplicativo, para facilitar compras de ingredientes para tais, com praticidade para encontrar ingredientes específicos, junto a um preço menor de custo e com entregas rápidas e seguras. Logo, com esta ideia e execução da mesma, estabelecimentos não irão sofrer mais com a falta de ingredientes, e seus clientes não sairão insatisfeitos por não terem suas vontades saciadas. 
 Iremos utilizar as linguagens de programação Front-End (HTML5, CSS3 e JavaScript) junto ao PHP E  MySQL para a estruturação do nosso site, e a framework REACT para a realização do aplicativo.
