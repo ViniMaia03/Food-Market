@@ -6,6 +6,9 @@ Restaurantes e estabelecimentos sofrem quando há a necessidade de algum ingredi
 
 ## Introdução
 
+Consumidores têm encontrado dificuldade em realizar pedidos no McDonald’s e no Burguer King, porque as lojas estão com falta de produtos, devido a um problema na entrega de alguns ingredientes. A situação tem até fechado algumas unidades na Capital, afirma pesquisas da internet. Com à falta de ingredientes, e as vezes ao atraso de entregas, restaurantes e estabelecimentos têm sofrido com isso. Locais encerrando o expediente mais cedo, retirando produtos do cardápio, e até mesmo fechando seus negócios.
+
+
 Analisamos e estudamos, e levantamos que um dos principais desafios para restaurantes são encontrar bons fornecedores. Trabalhar com fornecedores de alta qualidade é fundamental para o sucesso de um restaurante. E através de pesquisas, descobrimos que bastantes estabelecimentos são fechados, pela falta de ingredients. Então a partir disto, tivemos a ideia de criar um site e aplicativo, focado em ajudar especificamente restaurantes parceiros do Ifood. E nestes nossos site e aplicativo prático e fácil de ser utilizado, os restaurantes parceiros podem encontrar qualquer tipo de ingrediente com rápida entrega.
 
 ## Apresentação do Projeto
@@ -39,3 +42,11 @@ Desenvolver um site acessível, e sem impedimentos de ser utilizado. Facíl de s
 ## Metodologia
 
 A metodologia do nosso projeto primeiramente consiste em sua modelagem, desenvolvida em UML (Unified Modeling Language) tendo como base os exercícios aplicados pelo nosso orientador Romeu Afecto, ao decorrer do curso. Para a realização deste TCC, utilizamos diversas ferramentas com o objetivo de alcançar o necessário para a confecção do projeto, por nós escolhido, como proposto um aplicativo e um site. Uma das principais decisões estava relacionada a qual linguagem de programação iríamos usar para o app, assim optamos pelo framework Ionic, que nos foi aprofundado pelo coordenador do curso, professor Alex Sander. Em seguida, os softwares que necessitaríamos para o desenvolvimento do projeto, softwares mais avançados como o VScode, o Xampp (para conectar o banco de dados do SQLserver com o site) e o Figma para a prototipação do site e aplicativo. E para o site usaremos as linguagens de programação para web: HTML5, CSS3 e JavaScript.
+
+## Referêncial Teórico
+
+## Análise
+
+## Resultados
+
+## Referêncial / Apêndice
