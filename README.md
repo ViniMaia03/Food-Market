@@ -7,9 +7,8 @@ Restaurantes e estabelecimentos sofrem quando há a necessidade de algum ingredi
 ## Introdução
 
 Consumidores têm encontrado dificuldade em realizar pedidos no McDonald’s e no Burguer King, porque as lojas estão com falta de produtos, devido a um problema na entrega de alguns ingredientes. A situação tem até fechado algumas unidades na Capital, afirma pesquisas da internet. Com à falta de ingredientes, e as vezes ao atraso de entregas, restaurantes e estabelecimentos têm sofrido com isso. Locais encerrando o expediente mais cedo, retirando produtos do cardápio, e até mesmo fechando seus negócios.
-
-
-Analisamos e estudamos, e levantamos que um dos principais desafios para restaurantes são encontrar bons fornecedores. Trabalhar com fornecedores de alta qualidade é fundamental para o sucesso de um restaurante. E através de pesquisas, descobrimos que bastantes estabelecimentos são fechados, pela falta de ingredients. Então a partir disto, tivemos a ideia de criar um site e aplicativo, focado em ajudar especificamente restaurantes parceiros do Ifood. E nestes nossos site e aplicativo prático e fácil de ser utilizado, os restaurantes parceiros podem encontrar qualquer tipo de ingrediente com rápida entrega.
+Com isso, estudando e analisando esse problema dos restaurantes, realizamos um formulário para entender melhor a realidade que estabelecimentos enfrentam. Descobrimos também que, alguns clientes acabam desistindo da compra. Chagamos a conclusão que trabalhar com fornecedores de alta qualidade é fundamental para o sucesso de um restaurante.
+Logo, a ideia do nosso projeto, será estruturar um site e aplicativo para ajudar especificamente restaurantes a solucionar esses problemas. E nas nossas aplicações que realizaremos, os restaurantes e estabelecimentos poderão encontrar qualquer tipo de ingrediente, desde verduras até massas, com rápida e segura entrega.
 
 ## Apresentação do Projeto
 
@@ -17,13 +16,13 @@ Analisamos e estudamos, e levantamos que um dos principais desafios para restaur
 Food Market
 
 ### Proposta do Projeto
-Nossa proposta com esse projeto, é estruturar um site, para estabelecimentos que trabalham com comida (restaurantes, cantinas, entre outros) possam fazer pedidos de ingredientes que estão em falta. 
+Nossa proposta com esse projeto, é estruturar um site, para estabelecimentos que trabalham com comida (restaurantes, cantinas, entre outros) possam fazer pedidos de ingredientes que estão em falta, e assim resolver tais problemas levantados. 
 
 ### Delimitação do Tema 
-Plataforma digital para entrega de mercadorias em estabelecimentos comerciais e não comerciais, para estabelecimentos que estão com falta de ingredientes. Temos intuito de promover rapidez nas entregas e na hora de escolher os ingredientes para o estabelecimento. 
+Plataforma digital - site e aplicativo - para entrega de mercadorias em estabelecimentos comerciais e não comerciais, que estão com falta de ingredientes. Temos intuito de promover rapidez nas entregas e, qualidade na hora de escolher os ingredientes para o estabelecimento. 
 
 ### Problematização
-Certamente, segundo notícias da internet, a falta de ingredientes pode causar insatisfações nos clientes, até o fechamento de estabelecimentos. Grandes e famosas redes de comida, tiveram que reduzir seus cardápios, e também, fechar unidades. Logo, refletindo sobre essas notícias presentes na internet, até quando clientes sairão insatisfeitos por falta de produtos, ou até mesmo o fechamento de restaurantes? 
+Certamente, um dos principais problemas que estabelecimentos devem se preocupar, é o gerenciamento de seu estoque de ingredientes. E com notícias da interneta falta de ingredientes pode causar insatisfações nos clientes, até o fechamento de estabelecimentos. Grandes e famosas redes de comida, tiveram que reduzir seus cardápios, e também, fechar unidades. Logo, refletindo sobre essas notícias presentes na internet, até quando clientes sairão insatisfeitos por falta de produtos, ou os restaurantes continuarão enfrentando o fechamento de seus negócios? 
 
 ### Justificativas
 Com base em discussões que nosso grupo teve no início do ano, e pensando na questão levantada na problematização, decidimos o que iremos fazer para resolver o problema. Começamos a estruturar a ideia do projeto, junto com decisão de criação de um site para ajudar estabelecimentos a evitarem situações como essa
