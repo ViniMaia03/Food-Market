@@ -1,8 +1,9 @@
 # Resumo
 
-Restaurantes e estabelecimentos sofrem quando há a necessidade de algum ingrediente. Com isso, o objetivo deste trabalho é fazer uma filial para o ifood, que seria um mercado virtual, onde você poderia fazer compras para os restaurantes/estabelecimentos que já atuam no ifood. Nosso mercado virtual funcionaria como um site/aplicativo, para facilitar compras de ingredientes para tais, com praticidade para encontrar ingredientes específicos, junto a um preço menor de custo e com entregas fáceis e rápidas. Logo, com esta ideia e execução da mesma, estabelecimentos não irão sofrer mais com a falta de ingredientes, e seus clientes não sairão insatisfeitos por não terem suas vontades saciadas. Iremos utilizar HTML5, CSS3 e JavaScript para a estruturação do nosso site, e a framework Ionic para a realização do aplicativo.
+Justifica-se que restaurantes e estabelecimentos sofrem quando há a necessidade de algum ingrediente. Esses problemas partem desde fecharem mais cedo, ou encerrarem seus negócios. Com isso, o objetivo deste trabalho é produzir um site e aplicativo, onde restaurantes/estabelecimentos possam comprar ingredientes que necessitam. Nosso mercado virtual funcionaria como um site e aplicativo, para facilitar compras de ingredientes para tais, com praticidade para encontrar ingredientes específicos, junto a um preço menor de custo e com entregas rápidas e seguras. Logo, com esta ideia e execução da mesma, estabelecimentos não irão sofrer mais com a falta de ingredientes, e seus clientes não sairão insatisfeitos por não terem suas vontades saciadas. 
+Iremos utilizar as linguagens de programação Front-End (HTML5, CSS3 e JavaScript) junto ao PHP E  MySQL para a estruturação do nosso site, e a framework REACT para a realização do aplicativo.
 
-**Palavras-chave:** Restaurantes. Necessidade. Ingredientes
+**Palavras-chave:** Restaurantes. Necessidade. Ingredientes.         
 
 ## Introdução
 
@@ -35,8 +36,8 @@ Desenvolver um site acessível, e sem impedimentos de ser utilizado. Facíl de s
 ### Objetivos Específicos
 
 - Estudar UML (Unified Modeling Language) para a modelagem do nosso projeto.
-- Estudar mais sobre a aplicação de Banco de Dados, e desenvolver o mesmo.
-- Estudar e aplicar as normas ABNT na nossa documentação
+- Entender com funciona a construção de um banco de dados, e como fazer a junção dele com o HTML5.
+- Ir atrás de estabelecimentos, para enteder mais sobre problemas enfrentados.
 
 ## Metodologia
 
