@@ -49,6 +49,4 @@ A metodologia do nosso projeto primeiramente consiste em sua modelagem, desenvol
 
 ## Análise
 
-## Resultados
-
 ## Referêncial / Apêndice
