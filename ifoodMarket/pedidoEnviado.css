@@ -3,12 +3,14 @@
 /* VARIÁVEIS --------------------*/
 
 :root{
-  --vermelho:#ff3838;
   --branco: #fff;
   --preto: #000;
   --bkgCinza: #f7f7f7; 
   --cinzaClaro: #666; 
   --cinzaEscuro: #333;
+  --amarelo: #fac031;
+  --verde: #4fe938;
+  --verdeClaro: #a4ef9a;
 }
 
 /* GERAL -----------------------*/
@@ -26,7 +28,7 @@
 }
 
 *::selection{
-  background:var(--vermelho);
+  background:var(--verde);
   color:var(--branco);
 }
 
@@ -49,14 +51,14 @@ body{
 }
 
 .titulo span {
-    color:var(--vermelho);
+    color:var(--verde);
 }
 
 .voltar {
     display: inline-block;
     padding:.8rem 3rem;
-    border:.2rem solid var(--vermelho);
-    color:var(--vermelho);
+    border:.2rem solid var(--verde);
+    color:var(--verde);
     cursor: pointer;
     font-size: 1.7rem;
     border-radius: .5rem;
