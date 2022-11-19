@@ -46,6 +46,11 @@ Desenvolver um site acessível, e sem impedimentos de ser utilizado. Facíl de s
 A metodologia do nosso projeto primeiramente consiste em sua modelagem, desenvolvida em UML (Unified Modeling Language) tendo como base os exercícios aplicados pelo nosso orientador Romeu Afecto, ao decorrer do curso. Para a realização deste TCC, utilizamos diversas ferramentas com o objetivo de alcançar o necessário para a confecção do projeto, por nós escolhido, como proposto um aplicativo e um site. Uma das principais decisões estava relacionada a qual linguagem de programação iríamos usar para o app, assim optamos pelo framework Ionic, que nos foi aprofundado pelo coordenador do curso, professor Alex Sander. Em seguida, os softwares que necessitaríamos para o desenvolvimento do projeto, softwares mais avançados como o VScode, o Xampp (para conectar o banco de dados do SQLserver com o site) e o Figma para a prototipação do site e aplicativo. E para o site usaremos as linguagens de programação para web: HTML5, CSS3 e JavaScript.
 
 ## Referêncial Teórico
+### Reflexão acerca da falta de ingredientes
+"Consumidores têm encontrado dificuldade em realizar pedidos no McDonald’s e no Burguer King de Campo Grande porque as lojas estão com falta de produtos, devido a um problema na entrega de alguns ingredientes. A situação tem até fechado algumas unidades na Capital." (MAGALHÃES, Beatriz 2018).
+A compreensão da importância acerca da falta de ingredintes, foi fundamental para a estruturação do nosso projeto. Ao analisar artigos que remetiam à falta de ingredientes, percebe-se que a falta de ingredientes é um fator que dificulta cada vez mais as vidas dos restaurantes.
+
+
 
 ## Análise
 

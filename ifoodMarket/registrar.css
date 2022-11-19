@@ -2,14 +2,14 @@
 
 /* VARIÁVEIS --------------------*/
 
-:root {
-  --vermelho: #ff3838;
+:root{
   --branco: #fff;
   --preto: #000;
-  --bkgCinza: #f7f7f7;
-  --cinzaClaro: #666;
+  --bkgCinza: #f7f7f7; 
+  --cinzaClaro: #666; 
   --cinzaEscuro: #333;
-  --verde: #2ecc61;
+  --amarelo: #fac031;
+  --verde: #4fe938;
 }
 
 /* GERAL -----------------------*/
@@ -27,7 +27,7 @@
 }
 
 *::selection {
-  background: var(--vermelho);
+  background: var(--verde);
   color: var(--branco);
 }
 
@@ -57,7 +57,7 @@ body {
 }
 
 .titulo span {
-  color: var(--vermelho);
+  color: var(--verde);
 }
 /* CONTAINER / DIVS----------------------*/
 
@@ -122,9 +122,9 @@ body {
 
 .form-control button {
   background-color: var(--branco);
-  border: .1rem solid var(--vermelho);
+  border: .1rem solid var(--verde);
   border-radius: 1rem;
-  color: var(--vermelho);
+  color: var(--verde);
   font-size: 14px;
   width: 45%;
   margin-top: 15px;
@@ -132,7 +132,7 @@ body {
 }
 
 .form-control button:hover {
-  background-color: var(--vermelho);
+  background-color: var(--verde);
   color: var(--branco);
 }
 
@@ -148,7 +148,7 @@ body {
 }
 
 .form-control.error input {
-  border-color: var(--vermelho);
+  border-color: var(--verde);
 }
 
 .form-control.success i.fa-check-circle {
@@ -157,7 +157,7 @@ body {
 }
 
 .form-control.error i.fa-exclamation-circle {
-  color: var(--vermelho);
+  color: var(--verde);
   visibility: visible;
 }
 
@@ -166,7 +166,7 @@ body {
 }
 
 .form-control.error small {
-  color: var(--vermelho);
+  color: var(--verde);
   visibility: visible;
 }
 

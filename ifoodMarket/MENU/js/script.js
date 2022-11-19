@@ -91,7 +91,7 @@ const adicionarNoCarrinho = () => {
     seleciona('.produtoInfo--addButton').addEventListener('click', () => {
         console.log('Adicionar no carrinho')
 
-    	console.log("produto " + modalKey)
+    	console.log("Pizza " + modalKey)
 
 	    let size = seleciona('.produtoInfo--size.selected').getAttribute('data-key')
 	    console.log("Tamanho " + size)
@@ -110,16 +110,16 @@ const adicionarNoCarrinho = () => {
             cart[key].qt += quantProduto
         } else {
 
-            let produto = {
+            let pizza = {
                 identificador,
                 id: produtoJson[modalKey].id,
                 size, 
                 qt: quantProduto,
                 price: parseFloat(price) 
             }
-            cart.push(produto)
-            console.log(produto)
-            console.log('Sub total R$ ' + (produto.qt * produto.price).toFixed(2))
+            cart.push(pizza)
+            console.log(pizza)
+            console.log('Sub total R$ ' + (pizza.qt * pizza.price).toFixed(2))
         }
 
         fecharModal()
@@ -172,12 +172,12 @@ const atualizarCarrinho = () => {
 			let cartItem = seleciona('.modelos .cart--item').cloneNode(true)
 			seleciona('.cart').append(cartItem)
 
-			let produtoSizeName = cart[i].size
+			let pizzaSizeName = cart[i].size
 
-			let produtoName = `${produtoItem.name} (${produtoSizeName})`
+			let pizzaName = `${produtoItem.name} (${pizzaSizeName})`
 
 			cartItem.querySelector('img').src = produtoItem.img
-			cartItem.querySelector('.cart--item-nome').innerHTML = produtoName
+			cartItem.querySelector('.cart--item-nome').innerHTML = pizzaName
 			cartItem.querySelector('.cart--item--qt').innerHTML = cart[i].qt
 
 			cartItem.querySelector('.cart--item-qtmais').addEventListener('click', () => {
@@ -233,7 +233,7 @@ produtoJson.map((item, index ) => {
     
     produtoItem.querySelector('.produto-item a').addEventListener('click', (e) => {
         e.preventDefault()
-        console.log('Clicou na produto')
+        console.log('Clicou na pizza')
 
         let chave = pegarKey(e)
 
