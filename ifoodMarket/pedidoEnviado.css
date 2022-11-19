@@ -24,7 +24,6 @@
   border:none;
   text-decoration: none;
   text-transform: capitalize;
-  background-image: url(images/home-bg.jpg);
 }
 
 *::selection{
@@ -38,16 +37,24 @@ html{
 
 body{
   background:var(--bkgCinza);
+  background-image: url(images/home-bg.jpg);
 }
 
 /* TITULO --------------------------------------*/
 
 .titulo {
     text-align: center;
-    font-size: 7rem;
-    padding:20rem;
+    font-size: 5rem;
+    padding:20rem 20rem 2rem 20rem;
     color: var(--cinzaClaro);
     font-weight: bold;
+}
+
+.subtitulo {
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 0 0 10rem 0;
+  color: var(--cinzaClaro);
 }
 
 .titulo span {
@@ -71,4 +78,94 @@ body{
     width: 8rem;
     margin: 0 auto;
   }
+
+  /* RESPONSIVIDADE ------------------------- */
+
+@media(max-width:991px){
+
+  html{
+    font-size: 55%;
+  }
+
+  header{
+    padding:2rem;
+  }
+
+  section{
+    padding:2rem;
+  }
+
+  .titulo {
+    text-align: center;
+    font-size: 5rem;
+    padding:20rem 20rem 2rem 20rem;
+    color: var(--cinzaClaro);
+    font-weight: bold;
+}
+
+.subtitulo {
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 0 0 10rem 0;
+  color: var(--cinzaClaro);
+}
+
+}
+
+@media(max-width:768px){
+
+  #menu-bars{
+    display: initial;
+  }
+
+  header .navegacao{
+    position: absolute;
+    top:100%; left: 0; right:0;
+    background: var(--bkgCinza);
+    border-top: .1rem solid rgba(0,0,0,.1);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+
+  header .navegacao.active{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+
+  header .navegacao a{
+    margin: 1.5rem;
+    padding:1.5rem;
+    display: block;
+    border:.2rem solid rgba(0,0,0,.1);
+    border-left:.5rem solid var(--verde);
+    background: var(--branco);
+  }
+
+  .titulo {
+    text-align: center;
+    align-items: center;
+    font-size: 3rem;
+    padding:20rem 20rem 2rem 20rem;
+    color: var(--cinzaClaro);
+    font-weight: bold;
+}
+
+.subtitulo {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 0 0 10rem 0;
+  color: var(--cinzaClaro);
+}
+
+}
+
+@media(max-width:450px){
+
+  html{
+    font-size: 50%;
+  }
+
+  .order .row form .inputBox input{
+    width:100%;
+  }
+
+}
 

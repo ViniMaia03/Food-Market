@@ -3,96 +3,96 @@ let produtoJson = [
         id: 1,
         name: 'Tomates',
         img: 'img/tomate.png',
-        price: [20.00, 23.00, 25.00],
+        price: [1.00, 2.50, 5.00],
         sizes: [
           '1 Unidade',
           '3 Unidades',
-          '5 Unidades'
+          '7 Unidades'
         ],
-        description: 'Molho de tomate, camada dupla de mussarela e orégano'
+        description: 'Os melhores e mais frescos tomates selecionados para seu estabelecimentos.'
       },
       {
         id: 2,
         name: 'Alface',
         img: 'img/alface.png',
-        price: [21.00, 24.00, 26.00],
+        price: [2.15, 10.00, 19.00],
         sizes: [
-          '6 fatias',
-          '8 fatias',
-          '12 fatias'
+          '1 Unidade',
+          '5 Unidades',
+          '9 Unidades'
         ],
-        description: 'Molho de tomate, mussarela, calabresa fatiada, cebola e orégano'
+        description: 'As melhores e mais frescas alfaces selecionadas para o seu estabelecimento.'
       },
       {
         id: 3,
-        name: 'Quatro Queijos',
-        img: 'images/produto3.png',
-        price: [23.00, 26.00, 28.00],
+        name: 'Molho de Tomate',
+        img: 'img/molho-tomate.png',
+        price: [7.50, 35.00, 85.00],
         sizes: [
-          '6 fatias',
-          '8 fatias',
-          '12 fatias'
+          '1 Unidades',
+          '5 Unidades',
+          '12 Unidades'
         ],
-        description: 'Molho de tomate, camadas de mussarela, provolone, parmessão, gorgonzola e orégano'
+        description: 'O melhor e mais suculento molho de tomate selecionado para o seu estabelecimento.'
       },
       {
         id: 4,
-        name: 'Brasileira',
-        img: 'images/produto4.png',
-        price: [25.00, 28.00, 30.00],
+        name: 'Maionese',
+        img: 'img/maionese.png',
+        price: [12.00, 55.00, 130.00],
         sizes: [
-          '6 fatias',
-          '8 fatias',
-          '12 fatias'
+          '1 Unidades',
+          '5 Unidades',
+          '12 Unidades'
         ],
-        description: 'Molho de tomate, mussarela, calabresa picada, palmito, champignon, azeitonas e orégano'
+        description: 'A melhor e mais suculenta maionese selecionada para o seu estabelecimento.'
       },
       {
         id: 5,
-        name: 'Portuguesa',
-        img: 'images/produto5.png',
-        price: [24.00, 27.00, 29.00],
+        name: 'Mostarda',
+        img: 'img/mostarda.png',
+        price: [6.50, 30.00, 70.00],
         sizes: [
-          '6 fatias',
-          '8 fatias',
-          '12 fatias'
+          '1 Unidades',
+          '5 Unidades',
+          '12 Unidades'
         ],
-        description: 'Molho de tomate, mussarela, presunto, ovos, cebolas, pimentão, azeitona  e orégano'
+        description: 'A melhor de mais suculenta mostarda selecionada para o seu estabelecimento.'
       },
       {
         id: 6,
-        name: 'Moda da Casa',
-        img: 'images/produto6.png',
-        price: [30.00, 33.00, 35.00],
+        name: 'Morango',
+        img: 'img/morango.png',
+        price: [8.00, 35.00, 90.00],
         sizes: [
-          '6 fatias',
-          '8 fatias',
-          '12 fatias'
+          '1 Bandeija',
+          '5 Bandeijas',
+          '12 Bandeijas'
         ],
-        description: 'Molho de tomate, mussarela, carne de sol, tomates em cubos, coentro, cebola, azeitona, catupiry e orégano'
+        description: 'Os melhores e mais frescos morangos selecionados para o seu estabelecimento.'
       },
       {
         id: 7,
-        name: 'Banana com canela',
+        name: 'Hambúrguer de Carne',
         img: 'images/produto7.png',
         price: [27.00, 30.00, 32.00],
         sizes: [
-          '6 fatias',
-          '8 fatias',
-          '12 fatias'
+          '6 Unidades',
+          '8 Unidades',
+          '12 Unidades'
         ],
-        description: 'Mussarela, banana, canela e açúcar'
+        description: ''
       },
       {
         id: 8,
-        name: 'Chocolate com morango',
+        name: 'Hambúrguer de Frango',
         img: 'images/produto8.png',
         price: [30.00, 32.00, 35.00],
         sizes: [
-          '6 fatias',
-          '8 fatias',
-          '12 fatias'
+          '6 Unidades',
+          '8 Unidades',
+          '12 Unidades'
         ],
-        description: 'Creme de leite, lascas de chocolate e morangos'
+        description: ''
       }
 ];

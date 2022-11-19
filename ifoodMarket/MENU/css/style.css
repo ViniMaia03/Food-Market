@@ -124,7 +124,7 @@ header .navegacao a:hover{
 }
 
 aside {
-    background-color:var(--verdeClaro);
+    background-color: #eeeeee;
     width:0vw;
     font-family:'Hepta Slab', Helvetica, Arial;
     transition:all ease .2s;
@@ -136,7 +136,7 @@ aside.show {
 }
 
 .cart--area {
-    margin-top: 90px; /* ajuste */
+    margin-top: 90px; 
     padding:20px;
 }
 
