@@ -6,8 +6,8 @@ let produtoJson = [
         price: [1.00, 2.50, 5.00],
         sizes: [
           '1 Unidade',
-          '3 Unidades',
-          '7 Unidades'
+          '1/2 Dúzia',
+          '1 Dúzia'
         ],
         description: 'Os melhores e mais frescos tomates selecionados para seu estabelecimentos.'
       },
@@ -18,8 +18,8 @@ let produtoJson = [
         price: [2.15, 10.00, 19.00],
         sizes: [
           '1 Unidade',
-          '5 Unidades',
-          '9 Unidades'
+          '1/2 Dúzia',
+          '1 Dúzia'
         ],
         description: 'As melhores e mais frescas alfaces selecionadas para o seu estabelecimento.'
       },
@@ -30,8 +30,8 @@ let produtoJson = [
         price: [7.50, 35.00, 85.00],
         sizes: [
           '1 Unidades',
-          '5 Unidades',
-          '12 Unidades'
+          '1/2 Dúzia',
+          '1 Dúzia'
         ],
         description: 'O melhor e mais suculento molho de tomate selecionado para o seu estabelecimento.'
       },
@@ -42,8 +42,8 @@ let produtoJson = [
         price: [12.00, 55.00, 130.00],
         sizes: [
           '1 Unidades',
-          '5 Unidades',
-          '12 Unidades'
+          '1/2 Dúzia',
+          '1 Dúzia'
         ],
         description: 'A melhor e mais suculenta maionese selecionada para o seu estabelecimento.'
       },
@@ -54,8 +54,8 @@ let produtoJson = [
         price: [6.50, 30.00, 70.00],
         sizes: [
           '1 Unidades',
-          '5 Unidades',
-          '12 Unidades'
+          '1/2 Dúzia',
+          '1 Dúzia'
         ],
         description: 'A melhor de mais suculenta mostarda selecionada para o seu estabelecimento.'
       },
@@ -73,26 +73,26 @@ let produtoJson = [
       },
       {
         id: 7,
-        name: 'Hambúrguer de Carne',
-        img: 'images/produto7.png',
+        name: 'Pão Francês',
+        img: 'img/pãos.png',
         price: [27.00, 30.00, 32.00],
         sizes: [
-          '6 Unidades',
-          '8 Unidades',
-          '12 Unidades'
+          '1 Unidades',
+          '1/2 Dúzia',
+          '1 Dúzia'
         ],
-        description: ''
+        description: 'Os melhores e mais frescos pães franceses selecionados para seu estabelecimento.'
       },
       {
         id: 8,
-        name: 'Hambúrguer de Frango',
-        img: 'images/produto8.png',
+        name: 'Pão Brioche',
+        img: 'img/Pãobri.png',
         price: [30.00, 32.00, 35.00],
         sizes: [
-          '6 Unidades',
+          '1 Unidade',
           '8 Unidades',
-          '12 Unidades'
+          '1 Dúzia'
         ],
-        description: ''
+        description: 'Os melhores e mais frescos pães brioches selecionados para seu estabelecimento. '
       }
 ];

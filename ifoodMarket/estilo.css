@@ -138,7 +138,7 @@ section {
   
 .inicio .conteudo p {
     font-size: 1.7rem;
-    color: var(--cinzaClaro);
+    color: var(--cinzaEscuro);
     padding:1rem 0;
     text-transform: none;
 }
@@ -158,7 +158,8 @@ section {
     display: inline-block;
     padding:.8rem 3rem;
     border:.2rem solid var(--verde);
-    color:var(--verde);
+    color:var(--branco);
+    background-color: var(--verde);
     cursor: pointer;
     font-size: 1.7rem;
     border-radius: .5rem;
@@ -166,16 +167,6 @@ section {
     overflow: hidden;
     z-index: 0;
     margin-top: 1rem;
-  }
-  
-  .btn::before{
-    content: '';
-    position: absolute;
-    top:0; right: 0;
-    width:0%;
-    height:100%;
-    background:var(--verde);
-    z-index: -1;
   }
   
   .btn:hover::before{
